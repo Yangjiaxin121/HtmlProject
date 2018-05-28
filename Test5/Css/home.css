@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    margin-left:  10%;               
+    margin-right:  10%;
+    background-image: url(../Resource/images/background.gif);
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: repeat-x;
+    max-width: 80em;
+} */
+body{
+    background-image: url(../Resource/images/bg.jpg);
+}
+/* header{
+    background-image: url(../Resource/images/guitarist.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    padding-left: 5%;
+    height: 150px;
+} */
+
+/* 
+article{
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 0.2em;
+    padding-bottom: 30%;        article的长度
+  */
+
+   /* border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}*/
+/* body{
+    color: #fb5;
+    background-color: #334;
+}  */
+/* header{
+    color:#ec8;        
+    background-color: #334;     header的背景颜色
+    border-color: #667;      边框的颜色
+} */
+/* 
+article{
+    color:#223;
+    background-color: #edc;
+    border-color: #667;
+    font-size: 25px;
+} */
+article{
+    margin-top: 15%;
+}
+
+body{                             /*版式*/
+
+    font-family: "Helvetica","Arial",sans-serif;
+} 
+
+
+article{
+    line-height: 1.8em;
+}
+article p{
+    margin: 1em 0;
+}
+h1{
+ 
+    font-size: 40px;
+}
+
+
+.home_button{
+
+    width: 100px;
+    height: 80px;
+    margin-top:45px;
+    font-size: 50px;
+}
+#home_buttonDiv{
+    width: 120px;
+    height: auto;
+    margin-left: 41%;
+    margin-top: 40px;
+}
+/*#home_getNumber{*/
+    /*width: 120px;*/
+    /*height: auto;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*margin-top: 120px;*/
+
+
+/*}*/
+#test{
+    margin-left: 41%;
+
+    margin-top:100px;
+
+}
+
+.round{
+    padding:10px; width:300px; height:50px;
+    border: 5px solid #dedede;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:35px;            /* W3C syntax */
+    background: #AB82FF;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.rounddiv{
+    margin-top: 50px;
+
+}
+#rounddivs{
+    margin-left:27%;
+    margin-top: 50px;
+}
+

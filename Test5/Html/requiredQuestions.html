@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../Css/1.css" rel="stylesheet" type="text/css"/>
+    <title>必答题环节</title>
+</head>
+<body>
+    <header>
+            <!-- <img src="../Resource/images/logo.jpg" alt="Jay Skript and the Domsters"/> -->
+            <h1 style="text-align: center; margin-top: 5%; font-size: 40px;" >第二届"西科杯"大学生化学理论知识竞赛</h1>
+
+    </header>
+
+    <article>
+        
+        <div id="container" >
+        <div id="left">
+            <div id="judges">
+                <span id="judge" style="font-size: 40px"></span>
+            </div>
+            <div id="qusetionDiv">
+                
+
+                <iframe id="qusetion" width="900px" height="450px"></iframe>
+            </div>
+            <div id="abcdBtn">
+                <input type="button"  onclick="choiceA()" class="button" id="btn_A" value="A">
+                <input type="button"  onclick="choiceB()"class="button" id="btn_B"value="B">
+                <input type="button"  onclick="choiceC()"class="button" id="btn_C"value="C">
+                <input type="button"  onclick="choiceD()"class="button" id="btn_D"value="D">
+                <input type="button" value="提交 " onclick="submit()" id="submit" class="button" >
+                <input type="button" value="下一题" onclick="next()"id="next" class="button">
+            </div>
+    </div>
+    <div id="right">
+        <p style="font-size: 27px">必答题</p>
+        <p id="q" style="font-size: 27px">第1题</p>
+        <p style="font-size: 27px">倒计时:</p>
+        <p id="time1" style="font-size: 48px">30s</p>
+        <div id="add">
+
+        </div>
+    </div>
+        </div>
+</article>
+
+
+<script src="../Js/js12.js"></script>
+</body>
+</html>
