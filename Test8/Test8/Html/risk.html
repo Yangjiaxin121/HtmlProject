@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../Css/test2.css" rel="stylesheet" type="text/css"/>
+    <title>风险题环节</title>
+</head>
+
+<body>
+<header>
+    <!-- <img src="../Resource/images/logo.jpg" alt="Jay Skript and the Domsters"/> -->
+        <h1 style=" margin-top: 5%; font-size: 50px;" >
+            <div id="left1">
+                    <img src="../Resource/images/xiaohui.jpg" width="90" height="90"/>
+            </div>
+            第二届"西科杯"大学生化学理论知识竞赛
+        </h1>
+
+</header>
+<article>
+    <!-- <div id="choose">
+        <div id="radio1">
+            <input type="button"  value="简单难度" class="button1" onclick="chA()" id="A">
+            <input type="button"  value="中等难度" class="button1"onclick="chB()" id="B">
+            <input type="button"  value="困难难度"  class="button1"onclick="chC()" id="C">
+        </div>
+        <div id="radio2" >
+            <input type="button"  value="第一组" id="1" onclick="ch1()" style="display: none">
+            <input type="button"  value="第二组" id="2" onclick="ch2()"style="display: none">
+            <input type="button"  value="第三组" id="3" onclick="ch3()"style="display: none">
+            <input type="button"  value="第四组" id="4" onclick="ch4()"style="display: none">
+            <input type="button"  value="第五组" id="5" onclick="ch5()"style="display: none">
+            <input type="button"  value="第六组" id="6" onclick="ch6()"style="display: none">
+            <input type="button"  value="第七组" id="7" onclick="ch7()"style="display: none">
+            <input type="button"  value="第八组" id="8" onclick="ch8()"style="display: none">
+        </div>
+            <input type="button" value="提交" onclick="ok()">
+    </div> -->
+
+    <div id="container"  style="">
+            <div id="middle">
+                    <div id="choose">
+                            <div id="radio1">
+                                    <input type="button"  value="20分" class="button2" onclick="chA()" id="A" >
+                                    <input type="button"  value="30分" class="button2"onclick="chB()" id="B" >
+                                    <input type="button"  value="50分"  class="button2"onclick="chC()" id="C">
+                            </div>
+                            <div id="radio2" >
+                                <div>
+                                    <input type="button"  value="第一组" id="1" onclick="ch1()" style="display: none" class="button2" >
+                                    <input type="button"  value="第二组" id="2" onclick="ch2()"style="display: none" class="button2" >
+                                    <input type="button"  value="第三组" id="3" onclick="ch3()"style="display: none" class="button2" >
+                                </div>
+                                <div>
+                                    <input type="button"  value="第四组" id="4" onclick="ch4()"style="display: none" class="button2" > 
+                                    <input type="button"  value="第五组" id="5" onclick="ch5()"style="display: none" class="button2" >
+                                    <input type="button"  value="第六组" id="6" onclick="ch6()"style="display: none" class="button2" >
+                                </div>  
+                                <div>
+                                    <input type="button"  value="第七组" id="7" onclick="ch7()"style="display: none" class="button2" >
+                                    <input type="button"  value="第八组" id="8" onclick="ch8()"style="display: none" class="button2" >
+                                    <input type="button" value="确认" onclick="ok()" class="button3" id="ok" >
+
+                                </div>
+                            </div>
+                        </div>
+    
+            </div>
+        <div id="left">
+            <div id="judges">
+                <span id="judge3" style="font-size: 40px"></span>
+            </div>
+            <div id="qusetionDiv">
+                <iframe id="qusetion3" width="900px" height="450px"></iframe>
+            </div>
+            <div id="abcdBtn" style="display: none">
+                <input type="button"  onclick="choiceA3()" class="button" id="btn_A3" value="A">
+                <input type="button"  onclick="choiceB3()"class="button" id="btn_B3"value="B">
+                <input type="button"  onclick="choiceC3()"class="button" id="btn_C3"value="C">
+                <input type="button"  onclick="choiceD3()"class="button" id="btn_D3"value="D" style="display: none">
+
+
+            </div>
+        </div>
+        
+        <div id="right">
+                
+            <span style="font-size: 34px">风险题</span>
+            <br/>
+
+            <!-- <p id="q3Num" style="font-size: 18px">第1道</p> -->
+            <br/>
+            <span style="font-size: 34px" >倒计时：</span>
+            <p style="font-size: 52px" id="time3">30s</p>
+            <input type="button" value="提交并查看答案" onclick="next3()"id="next3" class="button1" style="width: 180px">
+            <div id="add3"></div>
+            </p>
+        </div>
+    </div>
+</article>
+
+<script src="../Js/js33.js"></script>
+</body>

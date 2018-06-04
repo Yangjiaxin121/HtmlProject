@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../Css/video1.css" rel="stylesheet" type="text/css"/>
+    <title>必答题环节</title>
+</head>
+<body>
+    <header>
+            <!-- <img src="../Resource/images/logo.jpg" alt="Jay Skript and the Domsters"/> -->
+            <h1 style=" margin-top: 5%; font-size: 50px;" >
+                    <div id="left1">
+                            <img src="../Resource/images/xiaohui.jpg" width="90" height="90"/>
+                    </div>
+                    第二届"西科杯"大学生化学理论知识竞赛
+                </h1>
+
+    </header>
+
+    <article>
+        
+        <div id="container" >
+        <div id="left">
+            <div id="judges">
+                <span id="judge" style="font-size: 40px"></span>
+            </div>
+            <div id="qusetionDiv">
+                <video  controls="controls" width="900px" height="450px" id="video"></video>
+                <iframe id="test" style="display: none" width="900px" height="450px"></iframe>
+            </div>
+            
+    </div>
+    <div id="right">
+        <h1 style="font-size: 32px">视频题</h1>
+            <div id="GroupBtn">
+                <div >
+                    <input type="button"  class="button" id="btn_1" value="1" onclick="video1()">
+                    <input type="button"  class="button" id="btn_2" value="2" onclick="video2()">
+                </div>
+                <div>
+                    <input type="button"  class="button" id="btn_3" value="3" onclick="video3()">
+                    <input type="button"  class="button" id="btn_4" value="4" onclick="video4()">
+                </div>
+                <div>
+                    <input type="button"  class="button" id="btn_5" value="5" onclick="video5()">
+                    <input type="button"  class="button" id="btn_6" value="6" onclick="video6()">
+                   
+                </div>
+                <div>
+                    <input type="button"  class="button" id="btn_7" value="7" onclick="video7()">
+                    <input type="button"  class="button" id="btn_8" value="8" onclick="video8()">
+                </div>
+                <input type="button" value="选择完毕" onclick="videoSubmit()" style="margin-top: 35px;position: absolute; left:78.5%;top:73.5%;" class="button1" id="sub">
+                    <!-- <input type="button" value="提交 " onclick="submit()" id="submit" class="button" >
+                    <input type="button" value="下一题" onclick="next()"id="next" class="button"> -->
+            </div>
+        <div id="add" style="position: absolute; left:78.5%;top:85%;">
+            <input type="button" onclick="showAnswer()"  id="showAnswer" style="display: none" value="查看答案" class="button1" style="position: absolute; left:78.5%;top:85%;">
+            <input type="button" onclick="add()"  id="addQ" style="display: none" value="附加题" class="button1">
+        </div>
+    </div>
+ </div>
+</article>
+<script src="../Js/video.js"></script>
+
+
+</body>
+</html>
