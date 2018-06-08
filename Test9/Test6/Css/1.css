@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    margin: 1px 0%;             左右边距和上下边距
+    background-image: url(../Resource/images/background.gif);
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: repeat-x;
+
+}
+header{
+    background-image: url(../Resource/images/guitarist.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    padding-left: 5%;
+    height: 150px;
+} */
+body{
+    background-image: url(../Resource/images/bg.jpg);
+    filter: alpha(opacity=110);
+    -moz-opacity: 1.1;
+    opacity: 1.1;
+}
+
+
+/* body{
+    color: #fb5;
+    background-color: #334;
+} 
+header{
+    color:#ec8;        点的颜色
+    background-color: #334;     header的背景颜色
+    border-color: #667;      边框的颜色
+}
+
+article{
+    color:#223;
+    background-color: #edc;
+    border-color: #667;
+} */
+
+
+body{                             /*版式*/
+
+    font-family: "Helvetica","Arial",sans-serif;
+} 
+body *{
+    font-size: 1em;
+}
+
+article{
+    margin-top: 2%;
+}
+
+article{
+    line-height: 1.8em;
+}
+article p{
+    margin: 1em 0;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+
+#qusetionDiv{
+    margin-left:140px;
+    width: auto;
+    height: auto;
+    margin-top:30px;
+}
+#abcdBtn{
+    margin-left:140px;
+    margin-top: 20px;
+
+}
+#judges{
+    margin-left:140px;
+    margin-top: 20px;
+}
+.button{
+
+
+    padding:10px; width:90px; height:60px;
+    border: 5px solid #dedede;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:35px;            /* W3C syntax */
+    background: #FFFFFF;
+    font-size: 25px;
+
+}
+.button1{
+
+
+    padding:10px; width:180px; height:60px;
+    border: 5px solid #dedede;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:35px;            /* W3C syntax */
+    background: #AB82FF;
+    font-size: 25px;
+
+}
+
+#submit{
+    margin-left: 150px;
+}
+#btn_A{
+    margin-left: 0px;
+}
+#right{
+    margin-top: 100px;
+    float: left;
+    margin-left: 180px;
+}
+#left{
+
+    float: left;
+
+}
+#judge{
+  
+
+}
+#left1{
+    margin-top: -15px;
+    margin-left: 17%;
+    margin-right: 2%;
+    float: left;
+
+}
